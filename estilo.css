@@ -1,0 +1,88 @@
+/*margen en todos las paginas*/
+*{
+    margin: 0;
+    padding: 0;
+   background-color:blueviolet;
+}
+/*pagina index*/
+header{
+  background-color: blueviolet;
+}
+h1{
+  text-align: center;
+  font-family:fantasy;
+}
+.menu{
+ 
+     padding: 1em;
+    float: left;
+    display: flex;
+}
+.caja{
+  background-color: blueviolet;
+  border: 1px solid black;
+  width: 350px;
+  text-align:center;
+  float:right;
+  font-weight: bold;
+ }
+ a{
+  text-decoration: none;
+  color: black;
+ }
+ .contenido{
+  clear: both;
+ }
+ section{
+ display: flex;
+ }
+ .absn{
+  float: left;
+  margin: 5px;
+  text-align: justify;
+ }
+ .cartera{
+  float: left;
+ }
+ .reloj{
+  float: left;
+ }
+ article{
+  background-color: antiquewhite;
+  margin: 5px;
+ }
+ footer{
+  margin: 40px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+ }
+ /*pagina horario de atencion*/
+ .tabla {
+ height: 200px;
+ margin: auto;
+font-size: larger;
+ text-align: center;
+
+ }
+ .titulo{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+ }
+ .dias{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+ }
+ /*pagina quienes somos*/
+ .articulo{
+  background-color: rgb(50, 4, 94);
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+ }
+/*pagina contacto*/
+.formulario {
+  
+  text-align: center;
+
+}
+
